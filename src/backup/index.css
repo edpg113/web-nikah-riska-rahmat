@@ -1,0 +1,75 @@
+
+/* App.css */
+body, html {
+  margin: 0;
+  /* font-family: 'Georgia', serif; */
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  color: #333;
+}
+
+.landing, .invitation {
+  height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing {
+  background-image: url('/path/to/landing-image.png'); /* Ganti dengan path gambar pertama */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.invitation {
+  background-image: url('./assets/prewed3.jpg'); /* Ganti dengan path gambar kedua */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.open-btn, .add-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.countdown div {
+  background: #111;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.guest-name {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.wish {
+  margin-top: 40px;
+  font-size: 0.95em;
+}
