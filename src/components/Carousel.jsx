@@ -61,10 +61,10 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
           />
         ))}
       </div>
-      <button className="carousel-button left" onClick={prev}>
+      <button className="carousel-button left" onClick={next}>
         ❮
       </button>
-      <button className="carousel-button right" onClick={next}>
+      <button className="carousel-button right" onClick={prev}>
         ❯
       </button>
 
