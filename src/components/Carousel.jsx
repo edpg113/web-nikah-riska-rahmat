@@ -6,6 +6,7 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
   const slideRef = useRef();
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+  const ignoreTouch = useRef(false);
 
   // Autoplay
   useEffect(() => {
@@ -25,14 +26,24 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
 
   // Swipe gesture
   const handleTouchStart = (e) => {
+    if (e.target && e.target.closest && e.target.closest(".carousel-button")) {
+      ignoreTouch.current = true;
+      return;
+    }
+    ignoreTouch.current = false;
     touchStartX.current = e.touches[0].clientX;
   };
 
   const handleTouchMove = (e) => {
+    if (ignoreTouch.current) return;
     touchEndX.current = e.touches[0].clientX;
   };
 
   const handleTouchEnd = () => {
+    if (ignoreTouch.current) {
+      ignoreTouch.current = false;
+      return;
+    }
     if (touchStartX.current - touchEndX.current > 50) {
       next();
     } else if (touchEndX.current - touchStartX.current > 50) {
