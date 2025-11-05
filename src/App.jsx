@@ -304,13 +304,6 @@ function App() {
                 <h3>085171199377</h3>
               </div>
             </div>
-            <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
-              <img src={Seabank} alt="Seabank" />
-              <div className="rekening">
-                <h3>Rahmat Indrian</h3>
-                <h3>901943019899</h3>
-              </div>
-            </div>
           </div>
         </div>
       </div>
