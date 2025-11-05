@@ -166,7 +166,7 @@ function App() {
                   Riska
                 </h2>
                 <h3 data-aos="fade-up" data-aos-delay="400">
-                  Riska Indriani
+                  Riska Paujiah
                 </h3>
                 <p data-aos="fade-up" data-aos-delay="600">
                   Putri Sulung dari Pasangan
@@ -300,8 +300,8 @@ function App() {
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="600">
               <img src={Dana} alt="Dana" />
               <div className="rekening">
-                <h3>Riska Indriani</h3>
-                <h3>085776089473</h3>
+                <h3>Rahmat Indrian</h3>
+                <h3>085171199377</h3>
               </div>
             </div>
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
