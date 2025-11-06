@@ -11,7 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import MusicPlayer from "./components/Musik";
-import Backsound from "./audio/backsound pernikahan.m4a";
+import Backsound from "./audio/soundtrack.mp3";
 import { useRef, useState } from "react";
 
 const foto = [Prewed1, Prewed2, Prewed3];
