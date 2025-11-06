@@ -58,7 +58,7 @@
     transition: all 1.35s ease-in-out;
 
     .bg-undangan {
-      background: url("./assets/couple(3).jpg");
+      background: url("./assets/couple(3).jpeg");
       background-position: center;
       background-size: cover;
       height: 100vh;
@@ -250,7 +250,7 @@
     background: rgb(248, 248, 248);
 
     .bg-acara {
-      background: url("./assets/couple(1).jpg");
+      background: url("./assets/couple(1)1.jpg");
       /* filter: grayscale(1) brightness(0.9); */
       background-position: center;
       background-size: cover;
@@ -425,7 +425,7 @@
       background: rgb(248, 248, 248);
 
       background-size: cover;
-      height: 100vh;
+      height: 90vh;
       width: 100%;
       .container6 {
         text-align: center;
@@ -458,7 +458,7 @@
     }
   }
   .penutup {
-    background: url("./assets/couple(4).jpg");
+    background: url("./assets/footer.jpeg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -467,7 +467,7 @@
       height: 100vh;
       .container7 {
         text-align: center;
-        padding-top: 55%;
+        padding-top: 35%;
         h1 {
           font-weight: 300;
           font-size: 2rem;

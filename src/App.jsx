@@ -3,10 +3,10 @@ import Pria from "./assets/rahmat.jpg";
 import Wanita from "./assets/riska.jpg";
 import Carousel from "./components/Carousel";
 import Prewed1 from "./assets/couple(2).jpg";
-import Prewed2 from "./assets/couple(3).jpg";
-import Prewed3 from "./assets/couple(1).jpg";
+import Prewed2 from "./assets/couple(3).jpeg";
+import Prewed3 from "./assets/couple(1).jpeg";
 import Dana from "./assets/dana.png";
-import Seabank from "./assets/seabank.webp";
+// import Seabank from "./assets/seabank.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -141,11 +141,7 @@ function App() {
                   data-aos="fade-zoom-in"
                   data-aos-duration="400"
                 >
-                  <img
-                    className="foto"
-                    src={Pria}
-                    alt="Pria"
-                  />
+                  <img className="foto" src={Pria} alt="Pria" />
                 </div>
                 <h2 data-aos="fade-up" data-aos-delay="200">
                   Rahmat
@@ -233,7 +229,10 @@ function App() {
                     Pertama kali jumpa
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Diawal tahun 2020</time> saat itu pertamakali bertemu dijalan dan dipertemukan kembali di sebuah komunitas Sadulur
+                    Saat pertama kali bertemu dia sedang bermain di depan rumah
+                    bersama anak kecil, pada waktu itu aku hanya memperhatiakan
+                    dan tidak berani menyapanya, singkat cerita 2 tahun kemudian
+                    kami di pertemukan kembali.
                   </span>
                 </div>
               </li>
@@ -243,7 +242,13 @@ function App() {
                     Mulai dekat
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Bulan Juli 2020</time> Disaat komunikasi buat acara kecurug Cisadane, disinilah kami mulai sering berbagi cerita satu sama lain dan kami mulai menjalin hubungan, ditahun 2021 sampai ditahun 2023 kami sempat berpisah dan kami bersatu kembali dan memutuskan untuk kejenjang yg lebih serius
+                    <time>Bulan Oktober 2024</time> Disaat itu dia kembali
+                    dengan keindahannya dan aku pun mulai mengagumi sekaligus
+                    jatuh hati kepadanya, bulan februari 2025 aku dapat kontak
+                    wa dia dan langsung menghubunginya disitu kami mulai berbagi
+                    cerita, tidak beselang lama aku memberanikan diri untuk
+                    bertemu wali wanita tersebut untuk meminta restu sekaligus
+                    menjalani perkenalan.
                   </span>
                 </div>
               </li>
@@ -253,7 +258,14 @@ function App() {
                     Komitmen bersama
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Bulan Mei 2024</time> Kami memutuskan untuk tunangan, pertemuan kedua belah fihak keluarga
+                    <time>Bulan Mei 2025</time> Kami ber dua berkomitmen
+                    menjalin hubungan yang lebih serius dan aku berniat untuk
+                    melamarnya, tidak hanya itu kami pun di uji berbagai
+                    permasalahan permasalahan yang membuat kami ber dua hampir
+                    putus asa menjalani hubungan yang serius ini, tetapi karena
+                    tekad kami yang kuat alhamdulillah saat ini kami masih
+                    mempertahan hubungan ini karena kami yakin setelah turun nya
+                    badai pasti pelangi pun akan muncul.
                   </span>
                 </div>
               </li>
@@ -261,7 +273,11 @@ function App() {
                 <div data-aos="fade-zoom-in" data-aos-delay="200">
                   <p>Lamaran</p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>08 Juni 2025</time> Menjadi momen bersejarah kami sepakat untuk mempertemukan kembali dua belah fihak keluarga untuk meminta doa restu dan menentukan pernikahan
+                    <time>Bulan Oktober 2025</time> Alhamdulillah menjadi moment
+                    yang sangat bahagia, kami sepakat untuk melangsungkan
+                    lamaran dan menentukan pernikahan. Terimakasih ya kamu telah
+                    mempertahankan hubungan ini, kamu adalah yang terbaik
+                    untuku. I love you riska tersayang 🩷🥰😘
                   </span>
                 </div>
               </li>
