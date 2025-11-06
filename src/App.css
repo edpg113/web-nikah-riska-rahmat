@@ -170,11 +170,11 @@
       /* background-image: url("./assets/bingkai5.png"); */
       background-position: center;
       background-size: cover;
-      height: 140vh;
+      height: 130vh;
       width: 100%;
       .container3 {
         text-align: center;
-        padding-top: 10%;
+        padding-top: 20%;
         h1 {
           font-weight: 300;
           font-size: 1.5rem;
@@ -464,7 +464,7 @@
     }
   }
   .penutup {
-    background: url("./assets/footer.jpeg");
+    background: url("./assets/footer2.jpeg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -473,7 +473,7 @@
       height: 100vh;
       .container7 {
         text-align: center;
-        padding-top: 35%;
+        padding-top: 45%;
         h1 {
           font-weight: 300;
           font-size: 2rem;
