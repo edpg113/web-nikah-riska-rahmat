@@ -131,7 +131,7 @@
       width: 100%;
       .container2 {
         text-align: center;
-        padding-top: 30%;
+        padding-top: 35%;
         h1 {
           font-weight: 500;
           font-size: 1.5rem;
@@ -405,13 +405,13 @@
       background-position: center;
       /* background: rgb(248, 248, 248); */
       background-image: url("./assets/bingkai5.png");
-
-      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 100%;
       height: 100vh;
       width: 100%;
       .container5 {
         text-align: center;
-        padding-top: 45%;
+        padding-top: 60%;
         h1 {
           font-weight: 300;
           font-size: 2rem;
