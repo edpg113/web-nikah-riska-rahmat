@@ -431,11 +431,11 @@
       /* background: rgb(248, 248, 248); */
 
       background-size: cover;
-      height: 80vh;
+      height: 85vh;
       width: 100%;
       .container6 {
         text-align: center;
-        padding-top: 20%;
+        padding-top: 40%;
         h1 {
           font-weight: 300;
           color: rgba(58, 56, 57, 0.89);
@@ -494,7 +494,7 @@
           padding: 5% 0;
         }
         .watermark {
-          padding-top: 55%;
+          padding-top: 70%;
           a {
             text-decoration: none;
             color: whitesmoke;
