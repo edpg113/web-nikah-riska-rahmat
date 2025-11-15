@@ -6,7 +6,6 @@ import Prewed1 from "./assets/couple(2).jpg";
 import Prewed2 from "./assets/couple(3).jpeg";
 import Prewed3 from "./assets/couple(1).jpeg";
 import Dana from "./assets/dana.png";
-// import Seabank from "./assets/seabank.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

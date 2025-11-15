@@ -122,8 +122,9 @@
   }
 
   .quotes {
-    background-image: url("./assets/bg2.jpg");
+    background-image: url("./assets/bgm3.jpg");
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
     .bg-quotes {
@@ -167,7 +168,7 @@
   .pengantin {
     .bg-pengantin {
       /* background: rgb(248, 248, 248); */
-      background-image: url("./assets/bg3.jpg");
+      background-image: url("./assets/bgm4.jpg");
       background-position: center;
       background-size: cover;
       height: 130vh;
@@ -249,7 +250,7 @@
     height: 100vh;
     overflow: hidden;
     /* background: rgb(248, 248, 248); */
-    background-image: url("./assets/bg1.jpg");
+    background-image: url("./assets/bgm4.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -314,8 +315,9 @@
   }
   .progress {
     /* background: rgb(248, 248, 248); */
-    background-image: url("./assets/bg3.jpg");
+    background-image: url("./assets/bgm4.jpg");
     background-size: cover;
+    background-position: center;
     height: 165vh;
     width: 100%;
   }
@@ -406,13 +408,13 @@
     .bg-galery {
       background-position: center;
       /* background: rgb(248, 248, 248); */
-      background-image: url("./assets/bg3.jpg");
+      background-image: url("./assets/bgm4.jpg");
       background-size: cover;
       height: 100vh;
       width: 100%;
       .container5 {
         text-align: center;
-        padding-top: 15%;
+        padding-top: 25%;
         h1 {
           font-weight: 300;
           font-size: 2rem;
@@ -430,7 +432,7 @@
     .bg-gift {
       background-position: center;
       /* background: rgb(248, 248, 248); */
-      background-image: url("./assets/bg1.jpg");
+      background-image: url("./assets/bgm4.jpg");
       /* background-size: cover; */
       /* height: 100vh;/ */
       width: 100%;
