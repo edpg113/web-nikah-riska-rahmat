@@ -196,7 +196,7 @@ function App() {
           <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
             <h2>Lokasi</h2>
             <p>Villa Bambu</p>
-            <p>Simpang Cipanas, Bogor</p>
+            <p>Jl. mariwati, cipanas simpang kabupaten cianjur</p>
           </div>
           <button>
             <a href="https://maps.app.goo.gl/7JxdocFNNQwmmzxL8?g_st=aw" target="_blank">
