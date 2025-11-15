@@ -122,16 +122,16 @@
   }
 
   .quotes {
+    background-image: url("./assets/bg2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     .bg-quotes {
       /* background: rgb(119, 39, 39); */
-      background-image: url("./assets/bingkai5.png");
       /* background-position: center; */
-      background-size: cover;
-      height: 50vh;
-      width: 100%;
       .container2 {
         text-align: center;
-        padding-top: 35%;
+        padding-top: 45%;
         h1 {
           font-weight: 500;
           font-size: 1.5rem;
@@ -167,7 +167,7 @@
   .pengantin {
     .bg-pengantin {
       /* background: rgb(248, 248, 248); */
-      /* background-image: url("./assets/bingkai5.png"); */
+      background-image: url("./assets/bg3.jpg");
       background-position: center;
       background-size: cover;
       height: 130vh;
@@ -249,6 +249,10 @@
     height: 100vh;
     overflow: hidden;
     /* background: rgb(248, 248, 248); */
+    background-image: url("./assets/bg1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 
     .bg-acara {
       background: url("./assets/couple(1)1.jpg");
@@ -310,11 +314,9 @@
   }
   .progress {
     /* background: rgb(248, 248, 248); */
-    background-image: url("./assets/bingkai5.png");
-    /* background-position: center; */
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* height: 155vh; */
+    background-image: url("./assets/bg3.jpg");
+    background-size: cover;
+    height: 165vh;
     width: 100%;
   }
 
@@ -404,14 +406,13 @@
     .bg-galery {
       background-position: center;
       /* background: rgb(248, 248, 248); */
-      background-image: url("./assets/bingkai5.png");
-      background-repeat: no-repeat;
-      background-size: 100%;
+      background-image: url("./assets/bg3.jpg");
+      background-size: cover;
       height: 100vh;
       width: 100%;
       .container5 {
         text-align: center;
-        padding-top: 60%;
+        padding-top: 15%;
         h1 {
           font-weight: 300;
           font-size: 2rem;
@@ -429,7 +430,10 @@
     .bg-gift {
       background-position: center;
       /* background: rgb(248, 248, 248); */
-
+      background-image: url("./assets/bg1.jpg");
+      /* background-size: cover; */
+      /* height: 100vh;/ */
+      width: 100%;
       background-size: cover;
       height: 85vh;
       width: 100%;
