@@ -27,8 +27,7 @@
     .acara {
       overflow: hidden;
       .bg-acara {
-        background: url("./assets/couple(4).jpg");
-        filter: grayscale(1) brightness(0.9);
+        background: url("./assets/couple(1)1.jpg");
         background-position: center;
         background-size: cover;
         height: 200px;
@@ -477,6 +476,7 @@
     filter: grayscale(0.5) brightness(0.9);
     .bg-penutup {
       height: 100vh;
+      position: relative; /* parent untuk watermark absolute */
       .container7 {
         text-align: center;
         padding-top: 45%;
@@ -500,7 +500,15 @@
           padding: 5% 0;
         }
         .watermark {
-          padding-top: 70%;
+          position: absolute;
+          bottom: 16px; /* jarak dari bawah layar */
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          max-width: 430px;
+          text-align: center;
+          padding: 0 10px;
+          box-sizing: border-box;
           a {
             text-decoration: none;
             color: whitesmoke;
